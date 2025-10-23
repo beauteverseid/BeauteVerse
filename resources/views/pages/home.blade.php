@@ -146,11 +146,11 @@
       <!-- Left slider -->
       <div style="flex:2;position:relative;border-radius:22px;overflow:hidden;background:#f7f7f7">
         <div id="slides" class="slides" style="height:420px">
-          <div class="slide"><img src="{{ asset('/images/1.png') }}" style="width:100%;height:420px;object-fit:cover" alt="Hero 1"></div>
-          <div class="slide"><img src="{{ asset('/images/2.jpg') }}" style="width:100%;height:420px;object-fit:cover" alt="Hero 2"></div>
-          <div class="slide"><img src="{{ asset('/images/3.jpg') }}" style="width:100%;height:420px;object-fit:cover" alt="Hero 3"></div>
-          <div class="slide"><img src="{{ asset('/images/4.jpg') }}" style="width:100%;height:420px;object-fit:cover" alt="Hero 4"></div>
-          <div class="slide"><img src="{{ asset('/images/5.jpg') }}" style="width:100%;height:420px;object-fit:cover" alt="Hero 5"></div>
+          <div class="slide"><img src="{{ asset('images/1.png') }}" style="width:100%;height:420px;object-fit:cover" alt="Hero 1"></div>
+          <div class="slide"><img src="{{ asset('images/2.jpg') }}" style="width:100%;height:420px;object-fit:cover" alt="Hero 2"></div>
+          <div class="slide"><img src="{{ asset('images/3.jpg') }}" style="width:100%;height:420px;object-fit:cover" alt="Hero 3"></div>
+          <div class="slide"><img src="{{ asset('images/4.jpg') }}" style="width:100%;height:420px;object-fit:cover" alt="Hero 4"></div>
+          <div class="slide"><img src="{{ asset('images/5.jpg') }}" style="width:100%;height:420px;object-fit:cover" alt="Hero 5"></div>
         </div>
   <button id="prev" class="arrow prev">❮</button>
   <button id="next" class="arrow next">❯</button>
