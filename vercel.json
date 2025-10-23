@@ -7,6 +7,18 @@
     "outputDirectory": "public",
     "routes": [
         {
+          "src": "/(css|js|images|fonts|storage)/(.*)",
+          "dest": "/public/$1/$2"
+        },
+        {
+          "src": "/favicon.ico",
+          "dest": "/public/favicon.ico"
+        },
+        {
+          "src": "/robots.txt",
+          "dest": "/public/robots.txt"
+        },
+        {
             "src": "/build/(.*)",
             "dest": "/build/$1"
         },
